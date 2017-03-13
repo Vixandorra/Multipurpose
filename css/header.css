@@ -2,9 +2,98 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: #222222;
     width: 100%;
-    min-height: 1006px;
+    min-height: 99px;
     color: white;
+    padding-top: 15px;
 }
 
+
+.logo {
+    content: url("../static/pic/Logo.png");
+}
+
+.menu {
+    font-size: 0.7em;
+    padding-bottom: 15px;
+}
+
+.menu li:not(:last-child) {
+    border-right: 1px solid #ffffff;
+}
+
+.search input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    color: #b5b5b5;
+}
+
+.search button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: #f10e34;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+
+.pic_block {
+    height: 35px;
+    width: 35px !important;
+    border: 10px solid #f10e34;
+    border-radius: 20px;
+    background-color: #f10e34;
+}
+
+.red_block {
+    margin-top: 15px;
+    height: 32px;
+    background: #f10e34;
+}
+
+.dropdown .btn-primary {
+    background: none;
+    border: none;
+}
+
+.dropdown .btn-primary:hover {
+    background: none;
+    border: none;
+}
+
+.main_menu {
+    font-size: 0.7em;
+}
+
+.btn-primary:hover .dropdown-menu,
+.btn-primary:active .dropdown-menu {
+    display: block;
+    background: white;
+    color: #222222;
+    overflow: visible;
+}
+
+.dropdown-menu i {
+    color: #b5b5b5;
+}
+
+.white_menu {
+    padding-top: 10px;
 }

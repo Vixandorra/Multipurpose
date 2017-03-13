@@ -2,7 +2,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #f3f3f3;
     height: auto;
     width: auto;
+    min-height: 1200px;
 }
 

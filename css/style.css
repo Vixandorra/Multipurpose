@@ -1,5 +1,5 @@
 html, body {
-    font: normal 100%  "RobotoSlab-light", "RobotoSlab-regular", "RobotoSlab-bold", Calibri, Candara, sans-serif;
+    font: normal 100%  "Lato-light", "Font-awesome", "Lato-regular", "Lato-light-italic", "Lato-bold-italic", "Lato-bold", Calibri, Candara, sans-serif;
     width: 100%;
     height: auto;
     overflow-x: hidden;
@@ -31,30 +31,54 @@ html, body {
     margin: 0 auto;
 }
 
-
-@font-face {
-    font-family: "RobotoSlab-light";
-    src: url("../static/font/Roboto_Slab_Light.ttf");
+.red_color {
+    color: #f10e34;
 }
 
 @font-face {
-    font-family: "RobotoSlab-regular";
-    src: url("../static/font/Roboto_Slab_Regular.ttf");
+    font-family: "Lato-Light";
+    src: url("../static/font/LatoLight/LatoLight.ttf");
 }
 
 @font-face {
-    font-family: "RobotoSlab-bold";
-    src: url("../static/font/Roboto_Slab_Bold.ttf");
+    font-family: "Lato-regular";
+    src: url("../static/font/LatoRegular/LatoRegular.ttf");
+}
+
+@font-face {
+    font-family: "Lato-bold";
+    src: url("../static/font/LatoBold/LatoBold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-bold-italic";
+    src: url("../static/font/LatoBoldItalic/LatoBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Lato-light-italic";
+    src: url("../static/font/LatoBoldItalic/LatoLightItalic.ttf");
 }
 
 
-@
+@font-face {
+    font-family: "Font-awesome";
+    src: url("../static/font/font awesome/font_awesome/fontawesome-webfont.ttf");
+}
 
 
 a {
     text-decoration: none;
     color: white;
     font-family: inherit;
+}
+
+i {
+    font-family: "Lato-light-italic";
+}
+
+.bold i {
+    font-family: "Lato-bold-italic";
 }
 
 a:hover {
@@ -66,12 +90,12 @@ a:hover {
 }
 
 .bold {
-    font-family: RobotoSlab-bold;
+    font-family: "Lato-bold-italic";
     font-weight: bold;
 }
 
 .regular {
-    font-family: RobotoSlab-regular;
+    font-family: "Lato-regular" ;
     font-weight: lighter;
 }
 
