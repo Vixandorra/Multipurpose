@@ -9,26 +9,59 @@ header {
     padding-top: 15px;
 }
 
+.logo_block {
+    display: inline-block;
+    float: left;
+}
+
 
 .logo {
     content: url("../static/pic/Logo.png");
 }
 
-.menu {
+.right {
+    display: inline-block;
+    float: right;
+}
+
+.top {
+    float: right;
     font-size: 0.7em;
     padding-bottom: 15px;
+}
+
+.bottom {
+    display: block;
+    float: right;
+    width: 80%;
+}
+
+.busket {
+    display: inline-block;
+    float: right;
 }
 
 .menu li:not(:last-child) {
     border-right: 1px solid #ffffff;
 }
 
+.menu li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.search {
+    width: 78%;
+    float: left;
+}
+
 .search input {
-    width: 100%;
+    display: inline-block;
+    width: 89.5%;
     height: 35px;
     padding-left: 10px;
     border: 2px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     outline: none;
     background: #ffffff;
     color: #b5b5b5;
@@ -36,9 +69,9 @@ header {
 
 .search button {
     position: absolute;
-    top: 0;
-    right: 0px;
-    width: 35px;
+    display: inline-block;
+    float: right;
+    width: 10.5%;
     height: 35px;
     border: none;
     background: #f10e34;
@@ -68,6 +101,47 @@ header {
     background: #f10e34;
 }
 
+.dropdown {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.dropdown .dropdown-menu,
+.dropdown .dropdown-menu li {
+    display: inline-block;
+    color: #222222;
+    overflow: visible;
+    border-radius: 0px;
+    padding: 0;
+    height: auto;
+    width: auto;
+    margin: 0;
+    background: white;
+}
+
+.dropdown .dropdown-menu li {
+    color: #222222;
+    height: 25px;
+    margin: auto 5%;
+    width: 90%;
+    padding: 0 ;
+    background-color: white;
+}
+
+.dropdown .dropdown-menu li a {
+    padding: 3px 10px;
+}
+
+.dropdown .dropdown-menu li a:hover {
+    padding: 3px 20px;
+}
+
+.dropdown .dropdown-menu i {
+    color: #b5b5b5;
+    margin-right: 10px;
+}
+
 .dropdown .btn-primary {
     background: none;
     border: none;
@@ -80,20 +154,74 @@ header {
 
 .main_menu {
     font-size: 0.7em;
+    margin-right: 7%;
 }
 
-.btn-primary:hover .dropdown-menu,
-.btn-primary:active .dropdown-menu {
+.dropdown:hover .dropdown-menu,
+.dropdown:active .dropdown-menu,
+.dropdown:focus .dropdown-menu {
     display: block;
     background: white;
     color: #222222;
     overflow: visible;
+    border-radius: 0px;
+    padding: 0;
 }
 
-.dropdown-menu i {
+.dropdown .dropdown-menu li:hover,
+.dropdown .dropdown-menu li:active {
+    color: #222222;
+    height: 25px;
+    background-color: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu i,
+.dropdown:active .dropdown-menu i {
     color: #b5b5b5;
+    margin-right: 10px;
+}
+
+.dropdown .dropdown-menu li:hover,
+.dropdown .dropdown-menu li:active {
+    width: 100%;
+}
+
+
+.main_menu, .white_menu {
+    display: block;
+    float: right;
 }
 
 .white_menu {
-    padding-top: 10px;
+     padding-top: 10px;
+ }
+
+.white_menu li {
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.dropdown-menu .divider {
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.dropdown-menu:hover .divider,
+.dropdown-menu:active .divider {
+    margin: auto 5%;
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin: 0;
 }

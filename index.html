@@ -16,32 +16,33 @@
     </head>
     <body>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery.min.js"></script>
 
         <div id="page" class="align-middle center-block">
             <header>
                 <div class="dark_block row d-inline col-lg-8">
-                    <div class="row align-middle col-lg-3 d-inline text-left">
-                        <div class="logo "></div>
+                    <div class="row d-inline logo_block">
+                        <div class="logo"></div>
                     </div>
 
-                    <div class="right col-lg-8 d-inline pull-right">
-                        <ul class="top menu row col-lg-12 pull-right">
-                            <li class="col-lg-3 text-right">My account</li>
-                            <li class="col-lg-2 text-center">Wishlist</li>
-                            <li class="col-lg-2 text-center">My Cart</li>
-                            <li class="col-lg-2 text-center">Checkout</li>
-                            <li class="col-lg-1 text-center">Login</li>
+                    <div class="right col-lg-9 d-inline">
+                        <ul class="top menu row">
+                            <li class=" text-right"><a>My account</a></li>
+                            <li class=" text-center"><a>Wishlist</a></li>
+                            <li class=" text-center"><a>My Cart</a></li>
+                            <li class=" text-center"><a>Checkout</a></li>
+                            <li class=" text-center"><a>Login</a></li>
                         </ul>
-                        <div class="row col-lg-12">
-                            <div class="search row col-lg-9 d-inline pull-left">
+                        <div class="bottom row col-lg-9">
+                            <div class="search row d-inline pull-left">
                                 <form>
                                     <input type="text" placeholder="Search here...">
                                     <button type="submit"></button>
                                 </form>
                             </div>
-                            <div class="busket row col-lg-3 d-inline pull-right">
+                            <div class="busket row d-inline">
                                 <div class="pic_block row pull-left d-inline"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
-                                <div class="text_block row pull-left col-lg-8 d-inline">
+                                <div class="text_block row pull-left col-lg-10 d-inline">
                                     <div class="uppercase d-inline">total</div>
                                     <div class="price">600<i class="fa fa-usd" aria-hidden="true"></i></div>
                                 </div>
@@ -55,12 +56,12 @@
 
                 <div class="red_block row">
                     <div class="row col-lg-8">
-                        <div class="dropdown pull-left">
-                            <button class="btn btn-primary uppercase dropdown-toggle pull-left" type="button" data-toggle="dropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-primary uppercase dropdown-toggle pull-left" type="button" data-toggle="collapse" data-target="#hide-me">
                                 <i class="fa fa-list" aria-hidden="true"></i>
                                 categories
                             </button>
-                            <ul class="dropdown-menu pull-left">
+                            <ul class="dropdown-menu">
                                 <li class="divider">
                                     <a href="#">
                                         <i class="fa fa-play-circle-o" aria-hidden="true"></i>
@@ -109,7 +110,7 @@
                                         <span class="list_text">Sports</span>
                                     </a>
                                 </li>
-                                <li class="divider">
+                                <li class="">
                                     <a href="#">
                                         <i class="fa fa-play-circle-o" aria-hidden="true"></i>
                                         <span class="list_text">Home and garden</span>
@@ -120,12 +121,12 @@
 
                         <div class="main_menu">
                             <ul class="white_menu uppercase">
-                                <li class="col-lg-1 text-center">Clothing</li>
-                                <li class="col-lg-2 text-center">Electronics hot</li>
-                                <li class="col-lg-2 text-center">healthy & beauty</li>
-                                <li class="col-lg-1 text-center">Watches</li>
-                                <li class="col-lg-1 text-center">Jewellery</li>
-                                <li class="col-lg-1 text-center">shoes</li>
+                                <li class=" text-center"><a>Clothing</a></li>
+                                <li class=" text-center"><a>Electronics hot</a></li>
+                                <li class=" text-center"><a>healthy & beauty</a></li>
+                                <li class=" text-center"><a>Watches</a></li>
+                                <li class=" text-center"><a>Jewellery</a></li>
+                                <li class=" text-center"><a>shoes</a></li>
                             </ul>
                         </div>
                     </div>
@@ -135,7 +136,7 @@
 
 
             <main class="container-fluid row align-middle">
-
+                <div class=""
 
             </main>
 
