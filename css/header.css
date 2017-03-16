@@ -107,8 +107,8 @@ header {
     width: 25%;
 }
 
-.dropdown .dropdown-menu,
-.dropdown .dropdown-menu li {
+.dropdown:hover .dropdown-menu,
+.dropdown:hover .dropdown-menu li {
     display: inline-block;
     color: #222222;
     overflow: visible;
@@ -120,7 +120,7 @@ header {
     background: white;
 }
 
-.dropdown .dropdown-menu li {
+.dropdown:hover .dropdown-menu li {
     color: #222222;
     height: 25px;
     margin: auto 5%;
@@ -129,15 +129,15 @@ header {
     background-color: white;
 }
 
-.dropdown .dropdown-menu li a {
+.dropdown:hover .dropdown-menu li a {
     padding: 3px 10px;
 }
 
-.dropdown .dropdown-menu li a:hover {
+.dropdown:hover .dropdown-menu li a:hover {
     padding: 3px 20px;
 }
 
-.dropdown .dropdown-menu i {
+.dropdown:hover .dropdown-menu i {
     color: #b5b5b5;
     margin-right: 10px;
 }
@@ -147,7 +147,7 @@ header {
     border: none;
 }
 
-.dropdown .btn-primary:hover {
+.dropdown:hover .btn-primary:hover {
     background: none;
     border: none;
 }
