@@ -107,6 +107,10 @@ header {
     width: 25%;
 }
 
+.dropdown .dropdown-menu li {
+     height: 40px;
+ }
+
 .dropdown:hover .dropdown-menu,
 .dropdown:hover .dropdown-menu li {
     display: inline-block;
@@ -122,19 +126,21 @@ header {
 
 .dropdown:hover .dropdown-menu li {
     color: #222222;
-    height: 25px;
+    height: 40px;
     margin: auto 5%;
     width: 90%;
     padding: 0 ;
     background-color: white;
 }
 
+
+
 .dropdown:hover .dropdown-menu li a {
-    padding: 3px 10px;
+    padding: 10px 10px;
 }
 
-.dropdown:hover .dropdown-menu li a:hover {
-    padding: 3px 20px;
+.dropdown:hover .dropdown-menu li a:hover i {
+    margin-left: 5%;
 }
 
 .dropdown:hover .dropdown-menu i {
@@ -171,7 +177,7 @@ header {
 .dropdown .dropdown-menu li:hover,
 .dropdown .dropdown-menu li:active {
     color: #222222;
-    height: 25px;
+    height: 40px;
     background-color: none;
     width: 100%;
     margin: 0;
@@ -181,7 +187,6 @@ header {
 .dropdown:hover .dropdown-menu i,
 .dropdown:active .dropdown-menu i {
     color: #b5b5b5;
-    margin-right: 10px;
 }
 
 .dropdown .dropdown-menu li:hover,
@@ -198,6 +203,12 @@ header {
 .white_menu {
      padding-top: 10px;
  }
+
+@media screen and (max-width: 480px) {
+    .white_menu {
+        display: none;
+    }
+}
 
 .white_menu li {
     display: inline-block;

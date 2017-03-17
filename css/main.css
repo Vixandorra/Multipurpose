@@ -11,30 +11,188 @@ main {
 .left_block {
     display: inline-block;
     float: left;
-    width: 15%;
+    width: 26%;
+    margin: 400px auto;
 }
+
+.left_block .hot_deal,
+.left_block .special_deal,
+.left_block .subscribe {
+    display: block;
+    width: 100%;
+    height: 320px;
+    background: white;
+    padding: 20px;
+    margin: 25px auto;
+}
+
+.left_block .subscribe {
+    height: 215px;
+}
+
+.left_block .subscribe button {
+    margin-top: 15px;
+}
+
+.left_block .hot_deal .top,
+.left_block .special_deal .top,
+.left_block .subscribe .top {
+    width: 100%;
+    border-bottom: 1px solid #b5b5b5;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.left_block .hot_deal .h5,
+.left_block .special_deal .h5,
+.left_block .subscribe .h5 {
+    width: 70%;
+    float: left;
+}
+
+.left_block .hot_deal .button_block,
+.left_block .special_deal .button_block {
+    display: inline-block;
+    width: 18%;
+    float: right;
+    padding-top: 10px;
+}
+
+.left_block .hot_deal .button_block .btn-circle,
+.left_block .special_deal .button_block .btn-circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 0;
+    font-size: 8px;
+    line-height: 2;
+    border-radius: 15px;
+}
+
+.hot_deal .button_block .btn-default,
+.special_deal .button_block .btn-default {
+    background-color: #b5b5b5;
+    color: white;
+}
+
+.hot_deal .photo,
+.special_deal .photo {
+    display: block;
+    margin: 55px auto 15px;
+    width: 100%;
+    height: 55%;
+}
+
+.hot_deal .photo {
+    background: url("../static/pic/left_bar_1.png") 50% no-repeat;
+    background-size: cover;
+}
+
+.special_deal .photo {
+    background: url("../static/pic/left_bar_2.png") 50% no-repeat;
+    background-size: cover;
+}
+
+.hot_deal .text_block,
+.special_deal .text_block {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.subscribe .text_block p {
+    font-size: 0.7em;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.hot_deal .text_block .stars,
+.special_deal .text_block .stars {
+    color: #ffc808;
+}
+
 
 .right_block {
     display: inline-block;
     float: right;
     width: 70%;
+    margin: 0 auto;
 }
 
 .right_block .big_banner {
     width: 100%;
-    height: 450px;
+    height: 350px;
     font-size: 0.6em;
+    color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .right_block .big_banner {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .right_block .big_banner {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .right_block .big_banner {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .right_block .big_banner {
+        height: 600px;
+    }
 }
 
 .right_block .banner {
     width: 100%;
     height: 80%;
-    background: url("../static/pic/header.png") no-repeat;
+    background: url("../static/pic/header.png") 50% no-repeat;
     background-size: cover;
 }
 
 .right_block .banner .text_block {
-    padding: 10%;
+    width: 60%;
+    height: 100%;
+    padding: 15% 10%;
+    text-align: center;
+}
+
+.right_block .banner .text_block button {
+    background: transparent;
+    border: 1px solid #222222;
+    padding: 5px 0;
+}
+
+.right_block .banner .text_block button a {
+    color: #222222;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+.right_block .banner .text_block h4 {
+    color: #303a7a;
+    margin: 0;
+}
+
+.right_block .banner .text_block h2 {
+    margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .right_block .banner .text_block h4 {
+        font-size: 1.5em;
+    }
+
+    .right_block .banner .text_block h2 {
+        font-size: 2.5em;
+    }
 }
 
 .right_block .red_block {
@@ -53,3 +211,4 @@ main {
     margin-bottom: 0;
     letter-spacing: 1px;
 }
+
