@@ -3,10 +3,98 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 1000px;
+    min-height: 400px;
+    color: #ffffff;
+    margin: 0 !important;
     width: 100%;
-    background: white;
-    color: #000;
-    margin-left: 0;
+}
+
+footer .width_70 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer .red_full_part {
+    width: 100%;
+    background: #f10e34 url("../static/pic/brand_bar.png") 50% no-repeat;
+    min-height: 150px;
+}
+
+footer .dark_block {
+    min-height: 320px;
+    padding-top: 45px;
+    background-color: #222222;
+}
+
+footer .dark_block i {
+    color: #f10e34;
+    padding-right: 10px;
+}
+
+footer .contacts,
+footer .information,
+footer .our_social,
+footer .pair {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2%;
+    font-size: 0.85em;
+}
+
+footer .contacts {
+    line-height: 1.5em;
+}
+
+footer .contacts .logo {
+    margin-bottom: 15px;
+}
+
+footer .contacts .text_block {
+    margin-bottom: 15px;
+}
+
+footer .information {
+    width: 15%;
+}
+
+footer .information ul li {
+    line-height: 1.7em;
+}
+
+footer .payment_option {
+    margin-top: 50px;
+}
+
+footer .payment_option li {
+    display: inline-block;
+    font-size: 32px;
+    margin: 5px;
+}
+
+footer .our_social ul {
+    column-count: 2;
+}
+
+footer .our_social ul li {
+    line-height: 1.7em;
+}
+
+footer .black_block {
+    background-color: black;
+    min-height: 120px;
+}
+
+footer .black_block .width_70 {
+    margin: 40px auto;
+    text-align: center;
+}
+
+footer .black_block ul {
+    padding-bottom: 15px;
+}
+
+footer .black_block li {
+    display: inline-block;
 }
 
