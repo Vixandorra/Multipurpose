@@ -62,6 +62,17 @@ footer .information ul li {
     line-height: 1.7em;
 }
 
+footer .pair .opening_time i {
+    display: inline-block;
+}
+
+footer .pair .opening_time .text {
+    display: inline-block;
+    width: 90%;
+    float: right;
+    font-size: 0.9em;
+}
+
 footer .payment_option {
     margin-top: 50px;
 }
