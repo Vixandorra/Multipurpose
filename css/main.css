@@ -7,9 +7,11 @@ main {
     height: 2050px;
 }
 
+/*
 main .col-lg-8, main .col-md-10, main .col-sm-12 {
     padding: 0;
 }
+*/
 
 main a {
     color: #000;
@@ -20,7 +22,7 @@ main a {
 .left_block {
     display: inline-block;
     float: left;
-    width: 26%;
+    width: 25.5%;
     margin: 0 auto;
 }
 
@@ -32,7 +34,7 @@ main a {
 .right_block .featured_products {
     display: block;
     width: 100%;
-    min-height: 320px;
+    min-height: 427px;
     background: white;
     padding: 20px;
     margin: 25px auto;
@@ -67,6 +69,9 @@ main a {
 .right_block .h5 {
     width: 70%;
     float: left;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 
@@ -155,20 +160,20 @@ main a {
 
 .left_block .empty_big_banner {
     width: 100%;
-    height: 375px;
+    height: 466px;
 }
 
 
 .right_block {
     display: inline-block;
     float: right;
-    width: 70%;
+    width: 71.2%;
     margin: 0 auto;
 }
 
 .right_block .big_banner {
     width: 100%;
-    height: 350px;
+    height: 495px;
     font-size: 0.6em;
     color: white;
 }
@@ -187,7 +192,7 @@ main a {
 
 @media screen and (min-width: 1366px) {
     .right_block .big_banner {
-        min-height: 450px;
+        min-height: 495px;
     }
 }
 
@@ -199,28 +204,34 @@ main a {
 
 .right_block .banner {
     width: 100%;
-    height: 80%;
-    background: url("../static/pic/header.png") 50% no-repeat;
+    height: 75.95%;
+    background: url("../static/pic/header.png") 89% 46% no-repeat;
     background-size: cover;
 }
 
 .right_block .banner .text_block {
-    width: 60%;
+    width: 57.2%;
     height: 100%;
-    padding: 15% 10%;
+    padding: 10.7% 4%;
     text-align: center;
 }
 
 .right_block .banner .text_block button {
     background: transparent;
     border: 1px solid #222222;
-    padding: 5px 0;
+    padding: 10px 0;
+    margin-left: 1.5%;
 }
 
 .right_block .banner .text_block button a {
     color: #222222;
-    font-size: 1.3em;
-    padding: 15px;
+    font-size: 2.5em;
+    padding: 22px;
+}
+
+.right_block .banner .text_block h6 {
+    margin-top: 5px;
+    margin-bottom: 45px;
 }
 
 .right_block .banner .text_block h4 {
@@ -233,18 +244,31 @@ main a {
 }
 
 @media screen and (min-width: 1200px) {
+    .right_block .banner .text_block h6 {
+        font-size: 3.1em;
+        letter-spacing: 1px;
+    }
+
     .right_block .banner .text_block h4 {
-        font-size: 1.5em;
+        font-size: 5.6em;
+        letter-spacing: 0px;
     }
 
     .right_block .banner .text_block h2 {
-        font-size: 2.5em;
+        font-size: 8.5em;
+        letter-spacing: 1px;
     }
 }
 
 .right_block .red_block {
     margin: 0;
-    height: 40px;
+    height: 80px;
+}
+
+.right_block .red_block ul {
+    padding-top: 3px;
+    width: 91%;
+    margin: 0 auto;
 }
 
 .right_block .red_block li {
@@ -254,9 +278,18 @@ main a {
     text-align: center;
 }
 
+.right_block .red_block li a {
+    color: white;
+}
+
 .right_block .red_block li .h6 {
     margin-bottom: 0;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 1.6em;
+}
+
+.right_block .red_block li span {
+    font-size: 1.5em;
 }
 
 
