@@ -4,7 +4,7 @@ main {
     justify-content: space-between;
     background: #f3f3f3;
     width: auto;
-    min-height: 2050px;
+    height: 2050px;
 }
 
 /*
@@ -26,12 +26,6 @@ main a {
     margin: 0 auto;
 }
 
-.left_block .empty_big_banner {
-    width: 100%;
-    height: 466px;
-}
-
-
 .left_block .hot_deal,
 .left_block .special_deal,
 .left_block .subscribe,
@@ -40,20 +34,15 @@ main a {
 .right_block .featured_products {
     display: block;
     width: 100%;
-    min-height: 423px;
+    min-height: 427px;
     background: white;
     padding: 20px;
-    margin: 27px auto;
+    margin: 25px auto;
 }
 
 
 .left_block .subscribe {
     min-height: 215px;
-}
-
-.left_block .subscribe .text_block p {
-    padding: 14px 0;
-    margin-top: 46px;
 }
 
 .left_block .subscribe button {
@@ -70,15 +59,9 @@ main a {
 
 }
 
-.subscribe {
-    font-size: 0.95em;
-}
-
 .subscribe .top {
     margin-bottom: 15px;
 }
-
-
 
 .left_block .hot_deal .h5,
 .left_block .special_deal .h5,
@@ -91,28 +74,14 @@ main a {
     margin-left: 5px;
 }
 
+
 .left_block .hot_deal .button_block,
 .left_block .special_deal .button_block,
 .right_block  .button_block {
     display: inline-block;
     max-width: 25%;
     float: right;
-    padding-top: 5px;
-    padding-right: 5px;
-    margin-bottom: 24px;
-}
-
-.left_block .special_deal .h5 {
-    padding-left: 7px;
-    padding-top: 4px;
-}
-
-.left_block .special_deal .button_block {
-    padding-right: 0;
-}
-
-.left_block .special_deal .text_block {
-    margin-top: 20px;
+    padding-top: 10px;
 }
 
 .left_block .hot_deal .button_block button,
@@ -125,12 +94,12 @@ main a {
 .left_block .special_deal .button_block .btn-circle,
 .right_block  .button_block .btn-circle {
     display: inline-block;
-    width: 22px;
-    height: 22px;
+    width: 15px;
+    height: 15px;
     text-align: center;
     padding: 0;
     margin: 0;
-    font-size: 11px;
+    font-size: 8px;
     line-height: 2;
     border-radius: 15px;
 }
@@ -146,14 +115,14 @@ main a {
 .special_deal .photo,
 .right_block  .photo {
     display: block;
-    margin: 80px auto 15px;
+    margin: 55px auto 15px;
     width: 100%;
     min-height: 200px;
 }
 
 .hot_deal .photo {
-    background: url("../static/pic/left_bar_1.png") 50% 57% no-repeat;
-    background-size: 95%;
+    background: url("../static/pic/left_bar_1.png") 50% no-repeat;
+    background-size: cover;
 }
 
 .special_deal .photo {
@@ -164,39 +133,17 @@ main a {
 .hot_deal .text_block,
 .special_deal .text_block,
 .right_block .text_block {
-    font-size: 0.95em;
+    font-size: 0.7em;
     text-align: center;
-    padding-top: 2px;
 }
 
-.left_block .text_block p,
-.right_block .text_block p{
-    margin: 5px 0;
-    padding-right: 18px;
-}
+
 
 .subscribe .text_block p {
-    font-size: 1em;
+    font-size: 0.7em;
     text-align: left;
-    padding: 15px;
+    padding-bottom: 15px;
 }
-
-.text_block input {
-    display: block;
-    width: 97%;
-    margin: 0px auto 8px;
-    height: 47px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #f3f3f3;
-    background-image: none;
-    border: 1px solid #f3f3f3;
-    border-radius: 4px;
-}
-
-
 
 .hot_deal .text_block .stars,
 .special_deal .text_block .stars,
@@ -211,6 +158,10 @@ main a {
     background-size: cover;
 }
 
+.left_block .empty_big_banner {
+    width: 100%;
+    height: 466px;
+}
 
 
 .right_block {
@@ -225,10 +176,6 @@ main a {
     height: 495px;
     font-size: 0.6em;
     color: white;
-}
-
-.right_block .big_banner .text_block {
-    font-size: 0.7em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -329,18 +276,6 @@ main a {
     width: 30%;
     margin: 0 1.2%;
     text-align: center;
-}
-
-.right_block .red_block li:nth-child(2) {
-    width: 40%;
-}
-
-.right_block .red_block li:nth-child(3) {
-    float: right;
-    width: 24.2%;
-    letter-spacing: 1px;
-    /* padding-right: 0; */
-    margin: 0;
 }
 
 .right_block .red_block li a {
@@ -505,12 +440,8 @@ main a {
 
 .pink {
     background-color: #f22f49;
-    border-radius: 20px;
-    height: 45px;
-    width: 51.5%;
-    margin-left: 5px;
-    font-size: 1em;
-    padding-top: 8px;
+    border-radius: 15px;
+    padding-top: 5px;
 }
 
 .blue {
